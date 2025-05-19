@@ -3,11 +3,11 @@
 ### Description: Automate Dockerfile creation
 
 ### Arguments:
---fr --> FROM
---workdir --> WORKDIR (default path is /usr/src/app)
---run --> RUN (required)
---cmd --> CMD (required)
---filepath (default path is current directory)
+#### --fr --> FROM
+#### --workdir --> WORKDIR (default path is /usr/src/app)
+#### --run --> RUN (required)
+#### --cmd --> CMD (required)
+#### --filepath (default path is current directory)
 
 ### Example:
   ```bash
